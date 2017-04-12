@@ -1,11 +1,11 @@
 ﻿@import "base.css";
+@import "background.css";
 @import "page-1.css";
 @import "page-2.css";
 @import "page-3.css";
 @import "page-4.css";
 @import "page-5.css";
 @import "page-6.css";
-@import "background.css";
 @import "movement.css";
 .resume-hide{
     display: none;
