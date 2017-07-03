@@ -1,11 +1,11 @@
 ﻿/*********************设置背景************************************/
 .item-1 #canvasBg {
-    background: url("../images/universe.jpg") no-repeat center center;
+    background: url("../images/universe1.jpg") no-repeat center center;
     -webkit-background-size: cover;
     background-size:cover ;
 }
 .item-2 {
-    background: url("../images/header-background.jpg") no-repeat center center;
+    background: url("../images/team.jpg") no-repeat center center;
     -webkit-background-size: cover;
     background-size:cover;
 }
