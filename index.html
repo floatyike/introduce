@@ -17,8 +17,10 @@
     <!--personal css-->
     <link rel="stylesheet" href="css/index.css"/>
 </head>
-<body>
-
+<body style="position:relative;">
+    <div id="enter" style="position:absolute;left: 0;top: 0; z-index:3000;width:100%; height: 100%; background: #127CC7 url('picture/enter.gif') no-repeat center center;
+    background-size: auto;"></div>
+    <div id="body" style="position:absolute;left:0; top:0; z-index: 2000;  width:100%; height: 100%;">
     <!--导航栏-->
     <nav class="navbar navbar-default resume">
         <div class="container">
@@ -436,6 +438,7 @@
 
         </div>
     </div>
+    </div>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -557,7 +560,8 @@ var _hmt = _hmt || [];
         window.requestAnimationFrame(animation);
     }
 
-    setTimeout(animation(),3000);
+//    setTimeout(animation(),3000);
+    animation();
     $(function(){
 //        alert('.indexs li'+$('.indexs li').size())
         //代码初始化
@@ -620,6 +624,9 @@ var _hmt = _hmt || [];
             moveR();
         });
 
+        setTimeout(function enter() {
+            $('#enter').fadeOut(600);
+        },3000);
 
     });
 
